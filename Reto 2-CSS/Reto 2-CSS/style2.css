@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html {
+    font-size: 62.5%;
+    }
+    
+    .main-header {
+    background-color: rgb(67, 216, 67);
+    }
+    
+    .main-nav .main-nav_ul li{
+    display: inline-block;
+    padding: 25px;
+    
+    }
+    
+    .title {
+    font-size: 6rem;
+    font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+    color: white;
+    position:absolute;
+    top: 2%;
+    margin-left: 15px;
+    }
+    
+ 
+    .main-nav_li, a {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px 20px;
+    font-size: 2.5rem;
+    font-family: ‘Gill Sans’, ‘Gill Sans MT’, Calibri, ‘Trebuchet MS’, sans-serif;
+    text-decoration: none;
+    color:white;
+    }
+    
+    .main-nav_li {
+    margin-left: 20%;
+    }
+    
+    .search {
+    position: absolute;
+    left: 73%;
+    top: 7%;
+    border-radius: 5%;
+    border: none;
+    padding: 5px;
+    }
+     
+    .aside {
+    height: 100vh;
+    width: 300px;
+    }
+    
+    .principal {
+    position: absolute;
+    left: 23%;
+    top: 18%;
+    width: 76vw;
+    height: 100vh;
+    align-items: center;
+    }
+    
+    div
+    {
+    background-color: rgba(12, 12, 12, 0.253);
+    width: 250px;
+    height: 150px;
+    border-radius: 10%;
+    margin-top: 15px;
+    margin-left: 25px;
+    }
+    
+    .aside-pok1 {
+    width: 245px;
+    height: 120px;
+    position: absolute;
+    top: 24%;
+    left: 2%;
+    border-radius: 10%;
+    }
+    
+    .aside-pok2 {
+    width: 245px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    border-radius: 10%;
+    }
+    
+    .aside-pok3 {
+    width: 245px;
+    height: 120px;
+    position: absolute;
+    top: 77%;
+    left: 2%;
+    border-radius: 10%;
+    }
+    
+    p {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    }
+    
+    .principal-div {
+    width: 85%;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    }
+    
+    
+    .pok-principal {
+    width: 600px;
+    height: 2300;
+    position: absolute;
+    left: 20%;
+    border-radius: 10%;
+    }
+    
+    section .principal-div p {
+    font-size: 1.7rem;
+    font-family: ‘Franklin Gothic Medium’, ‘Arial Narrow’, Arial, sans-serif;
+    color:grey;
+    position: absolute;
+    top: 65%;
+    }
